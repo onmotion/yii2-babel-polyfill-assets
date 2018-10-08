@@ -1,0 +1,24 @@
+{
+    "name": "onmotion/yii2-babel-polyfill-assets",
+    "description": "Babel polyfill assets for Yii2 app",
+    "type": "yii2-extension",
+    "keywords": ["yii2","assets","babel","polyfill","babel-polyfill"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandr Kozhevnikov",
+            "email": "onmotion1@gmail.com",
+            "homepage": "http://kozhevnikov.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "npm-asset/babel-polyfill": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "onmotion\\babelpolyfill\\": ""
+        }
+    }
+}
